@@ -1,3 +1,3 @@
-nsxviewer.rb
+rubyscript.rb
 rem index.html
 pause
