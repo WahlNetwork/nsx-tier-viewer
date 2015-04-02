@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+#diagramDiv{
+	height:500px;
+	width:500px;
+	margin:auto;
+	border:1px solid #000000;
+	text-align:center;
+}
+.edgeDiv,.transitDiv,.routerDiv,.switchDiv{
+	height:75px;
+	width:75px;
+	background-size:cover;
+	margin:25px auto;
+}
+.edgeTooltip,.transitTooltip,.routerTooltip,.switchTooltip{
+	height:auto;
+	width:auto;
+	display:none;
+	position:absolute;
+	background:#0FAFE1;
+	border-radius:0px 10px 10px 10px;
+	margin:50px 0px 0px 50px;
+	padding:10px;
+	z-index:100;
+	color:#FFFFFF;
+	text-align:left;
+}
+.edgeDiv{
+	background-image:url("../img/edge.png");
+	top:0;
+}
+.transitDiv{
+	background-image:url("../img/firewall.png");
+	top:25%;
+}
+.routerDiv{
+	background-image:url("../img/router.png");
+	top:50%;
+}
+.switchDiv{
+	background-image:url("../img/switch.png");
+	display:inline-block;
+	margin:25px;
+}
+.tooltipLabel{
+	font-weight:bold;
+}
+.tooltipHr{
+	color:#FFFFFF;
+}

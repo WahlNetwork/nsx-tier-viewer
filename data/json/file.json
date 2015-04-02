@@ -1,0 +1,81 @@
+{
+	"edge": {
+		"firewall": "enabled",
+		"ha": "true",
+		"management": {
+			"iface": "interface1",
+			"ip": "0.0.0.0"
+		},
+		"name": "edge",
+		"ospf": {
+			"area": "1",
+			"enabled": "true",
+			"type": "normal",
+			"internal": "true",
+			"uplink": "true"
+		},
+		"cli": {
+			"enabled": "true",
+			"user": "username",
+			"pass": "password",
+			"expiredays": "99999"
+		},
+		"tenant": "",
+		"uplink": {
+			"gateway": "0.0.0.0",
+			"iface": "interface1",
+			"ip": "0.0.0.0",
+			"mask": "255.255.255.255",
+			"name": "uplink"
+		}
+	},
+	"router": {
+		"firewall": "enabled",
+		"ha": "true",
+		"management": {
+			"iface": "interface1",
+			"ip": "0.0.0.0"
+		},
+		"name": "router",
+		"ospf": {
+			"area": "1",
+			"enabled": "true",
+			"type": "normal"
+		},
+		"cli": {
+			"enabled": "true",
+			"user": "username",
+			"pass": "password",
+			"expiredays": "99999"
+		},
+		"tenant": ""
+	},
+	"switches": [{
+			"ip": "0.0.0.0",
+			"mask": "255.255.255.255",
+			"name": "switch1"
+		}, {
+			"ip": "0.0.0.0",
+			"mask": "255.255.255.255",
+			"name": "switch2"
+		}, {
+			"ip": "0.0.0.0",
+			"mask": "255.255.255.255",
+			"name": "switch3"
+		}
+	],
+	"transit": {
+		"edgeip": "0.0.0.0",
+		"mask": "255.255.255.255",
+		"name": "transit",
+		"protoip": "0.0.0.0",
+		"routerip": "0.0.0.0"
+	},
+	"vsphere": {
+		"cluster": "cluster",
+		"datacenter": "datacenter",
+		"datastore": "datastore",
+		"folder": "folder"
+	}
+}
+			
