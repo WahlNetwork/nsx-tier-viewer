@@ -1,7 +1,7 @@
-$url='dreminn.homeip.net'
+$url='nsx.manager.com'
 $port='443'
 $user='admin'
-$pass='Password1!'
+$pass='password'
 ###################
 require 'pathname'
 xmlFolder=Pathname.new('data/xml')
