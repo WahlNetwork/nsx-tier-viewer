@@ -11,7 +11,7 @@ The goal of this code is to provide a quick, simple visual representation of an 
 
 ### How To Use This Tool:
 
-* Edit 'credentials.rb' and fill in the IP/hostname/URL, port, username, and password of the target NSX Manager VM
+* Edit the NSX Manager VM $url, $port, $user, and $pass in 'credentials.rb'
 ```
 $url='0.0.0.0'
 $port='443'
@@ -19,4 +19,4 @@ $user='admin'
 $pass='password'
 ```
 * Run 'script.rb' and then open 'index.html' (Windows users can just run 'runme.bat' instead)
-* 'index.html' shold open and display the NSX topology
+* 'index.html' should display the NSX topology
