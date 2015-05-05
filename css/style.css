@@ -4,68 +4,13 @@
 	font-family:sans-serif;
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
+body{ 
+	font:10px helvetica neue,helvetica,arial,sans-serif;
+}
 #diagramDiv{
-	position:relative;
-	height:600px;
-	width:800px;
-	margin:auto;
-	border:1px solid #000000;
-	text-align:center;
-}
-#edgeContainer{
-	top:0%;
-}
-#transitContainer{
-	top:25%;
-}
-#routerContainer{
-	top:50%;
-}
-#switchContainer{
-	top:75%;
-}
-.containerDiv{
-	position:absolute;
-	height:20%;
+	height:100%;
 	width:100%;
-}
-.edgeDiv,.transitDiv,.routerDiv,.switchDiv{
-	height:80px;
-	width:80px;
-	background-size:cover;
-	display:inline-block;
-	margin:0 20px;
-}
-.edgeTooltip,.transitTooltip,.routerTooltip,.switchTooltip{
-	height:auto;
-	width:auto;
-	display:none;
 	position:absolute;
-	background:#0FAFE1;
-	border-radius:0px 10px 10px 10px;
-	margin:10px 0px 0px 40px;
-	padding:10px;
-	z-index:100;
-	color:#FFFFFF;
-	text-align:left;
-}
-.edgeDiv{
-	background-image:url("../img/edge.png");
-}
-.transitDiv{
-	background-image:url("../img/transit.png");
-}
-.routerDiv{
-	background-image:url("../img/router.png");
-}
-.switchDiv{
-	background-image:url("../img/switch.png");
-}
-.nodeLabel{
-	font-weight:bold;
-	margin-top:40px;
-}
-.linkDiv{
-	position:absolute;
-	background-color:#0FAFE1;
+	left:0;
+	top:0;
 }
