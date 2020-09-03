@@ -1,4 +1,10 @@
-# nsx-tier-viewer
+# NSX Tier Viewer
+
+---
+
+# **Note: This project has ended and will remain here in an _Archived_ state for future reference. Thank you to all of the contributors and users who went on this journey with us!**
+
+---
 
 Welcome to the NSX Tier Viewer project!
 The goal of this code is to provide a quick, simple visual representation of an NSX environment.
